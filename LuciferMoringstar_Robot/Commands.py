@@ -331,7 +331,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('JOIN OUR CHANNEL', url=f'{TUTORIAL}')
+            InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/Kichcha_Creations')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
