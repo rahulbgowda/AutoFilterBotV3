@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('CLICK HERE', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/Kichcha_Creations')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('CLICK HERE', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/Kichcha_Creations')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('JOIN OUR CHANNEL', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/Kichcha_Creations')
                     ]
                     ]
                 
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('JOIN OUR CHANNEL', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/Kichcha_Creations')
                     ]
                     ]
                 
@@ -355,4 +355,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("Isn't it a little more interesting👀",show_alert=True)
